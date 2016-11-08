@@ -15,7 +15,7 @@ class StickyUploadWidget(forms.ClearableFileInput):
 
     class Media(object):
         js = (
-            'stickyuploads/js/django-uploader.bundle.min.js?v=%s' % __version__,
+            'stickyuploads/js/django-uploader.bundle.min.js',
         )
 
     def __init__(self, *args, **kwargs):
